@@ -1,0 +1,196 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(backimage.webp);
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', serif;
+}
+
+.productpage {
+    height: 600px;
+    width: 800px;
+    background-color: #121212;
+    border-radius: 7%;
+    box-shadow: 20px 20px 20px black;
+}
+
+.navbar {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+.navbar-details {
+    display: block;
+    width: 100px;
+    background: #0F0E06;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.image {
+    height: 350px;
+    width: 780px;
+    background-image: url('frontimage.webp'); 
+    background-size: cover;   
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-left: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px black;
+}
+
+.left{
+    height: 100%;
+    width: 300px;
+    color: white;
+    margin-left: 10px;
+}
+
+.para {
+    margin-top: 10px;
+}
+
+.star{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buy-to-cart button{
+    display: block;
+    background-color: #16100B; 
+    width: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.price {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.add-to-cart button {
+    display: block;
+    background-color: #0A0705; 
+    width: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.products {
+    margin-top: 20px;
+    width: 780px;
+    height: 230px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.watch {
+    height: 150px;
+    width: 23%;
+    background-image: url(watch.webp);
+    background-size: cover;
+    border: 3px solid #16100B;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.mobile {
+    height: 150px;
+    width: 23%;
+    background-image: url(mobile.webp);
+    background-size: cover;
+    border: 3px solid #16100B;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.gameconsole {
+    height: 150px;
+    width: 23%;
+    background-image: url(gameconsole.webp);
+    background-size: cover;
+    border: 3px solid #16100B;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.tracker {
+    height: 150px;
+    width: 23%;
+    background-image: url(tracker.webp);
+    background-size: cover;
+    border: 3px solid #16100B;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px black;
+}
+
+.product-text {
+    margin-top: 65px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.cart {
+    display: block;
+    background-color: #00130E; 
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
